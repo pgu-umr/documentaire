@@ -104,7 +104,7 @@ Le gradient est l'expression d'une dérivée directionnelle en un point donné.
 Le gradient pointe vers la direction de la plus forte pente. Le gradient est un scalaire.
 
 
-## Dérivée partielle de la fonction coût.
+## Dérivée partielle de la fonction coût. 😀️
 
 $\frac{\partial{J(a,b)}}{\partial{a}}=\frac{1}{m}\displaystyle\sum_{i=1}^{m}x^{(i)}\times (ax^{(i)}+b-y^{(i)})$      
 
@@ -131,7 +131,7 @@ $X^T$ la matrice X transposée (voir ci-dessus) correspond au x et au 1 des équ
 $(X\cdot\Theta-Y)$ est de dimension (m x 1).
 
 
-## Descente de gradient
+## Descente de gradient ⛔️
 Minimisation des erreurs pour avoir un modèle fidèle à la réalité.
 Mininum de la fonction « coût » en apprentissage supervisé.
 - choix des paramètres de façon aléatoire (a,b).
