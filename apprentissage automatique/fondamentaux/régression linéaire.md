@@ -56,7 +56,11 @@ $f(x)=ax+b$
 
 Sous forme vectorielle
 
-$f=X\cdot\Theta$
+$f=\Theta\cdot x$ ⚠️
+
+Sous forme matricielle
+
+$f=X\Theta$ ⚠️
 
 ## Théta
 
@@ -90,7 +94,7 @@ $J(\Theta) =\frac {1}{2 m} \displaystyle\sum_{ i = 1 }^{ m }  ( X\cdot\Theta-y^{
 
 ## Notions mathématiques
 
-### Fonction différentiables
+### Fonction différentiables⚠️
 Une fonction différentiables est la généralisation polynomiale (dans un espace  vectoriel) de la notion de fonction dérivée pour une seule variable.
 
 ### Dérivée directionnelle
@@ -99,7 +103,7 @@ La dérivée directionnelle quantifie la variation locale en fonction d'une dire
 ### Dérivée partielle
 La dérivée partielle est le cas particulier d'une dérivée directionnelle selon un des axes des coordonnées (pas exemple l'axe des absisses).
 
-### Gradient
+### Gradient ⚠️
 Le gradient est l'expression d'une dérivée directionnelle en un point donné.
 Le gradient pointe vers la direction de la plus forte pente. Le gradient est un scalaire.
 
@@ -118,7 +122,7 @@ $m \times ( n+1 )$
 
 On prend la transposée de $X$
 
-$X^T=\left[ \begin{matrix} x^{(1)} & \dots & x^{(m)}\\ 1 & \dots & 1\end{matrix} \right]$  
+$X^T=\left[ \begin{matrix} x^{(1)} & \dots & x^{(m)}\\\ 1 & \dots & 1\end{matrix} \right]$  
 
 $(n+1) \times m$
 
@@ -139,11 +143,11 @@ Mininum de la fonction « coût » en apprentissage supervisé.
 - avancement d'un pas $\alpha  = learning\ rate = vitesse\ de\ convergence\ (\ hyperparamètre\ )$
 
 
-À faire compléter ci-dessous 
+À faire compléter ci-dessous  ⚠️
 
 $J(a,b)$ est une composée de fonctions $(g \circ f)(a,b)$ (cela explique le principe de la dérivée) $f(a,b)=ax+b\ g(f)=f^2$
 
-## Algo matrice
+## Algo matrice ⚠️
 Algo de la descente de gradient
 
 $\Theta=\Theta-\alpha\frac{\partial J(\Theta)}{\partial\Theta}$
