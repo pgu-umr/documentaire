@@ -1,0 +1,143 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "NEORAU 2021 01",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "declaration.mois.neorau202101",
+					"match": "\\b(S20.G00.05.005.*)\\b"
+				},
+				{
+					"name": "declaration.identifiantmetier.neorau202101",
+					"match": "\\b(S20.G00.05.009.*)\\b"
+				},
+				{
+					"name": "versement.montant.neorau202101",
+					"match": "\\b(S21.G00.20.005.*)\\b"
+				},
+				{
+					"name": "versement.rattachementdatedebut.neorau202101",
+					"match": "\\b(S21.G00.20.006.*)\\b"
+				},
+				{
+					"name": "versement.rattachementdatefin.neorau202101",
+					"match": "\\b(S21.G00.20.007.*)\\b"
+				},
+				{
+					"name": "tiers.individuidentifiant.neorau202101",
+					"match": "\\b(S21.G00.30.001.*)\\b"
+				},
+				{
+					"name": "tiers.individumatricule.neorau202101",
+					"match": "\\b(S21.G00.30.019.*)\\b"
+				},
+				{
+					"name": "droitprestation.identifiant.neorau202101",
+					"match": "\\b(S21.G00.47.002.*)\\b"
+				},
+				{
+					"name": "ntt.neorau202101",
+					"match": "\\b(S21.G00.30.020.*)\\b"
+				},
+				{
+					"name": "versementindividu.netfiscal.neorau202101",
+					"match": "\\b(S21.G00.50.002.*)\\b"
+				},
+				{
+					"name": "versementindividu.tauxpas.neorau202101",
+					"match": "\\b(S21.G00.50.006.*)\\b"
+				},
+				{
+					"name": "versementindividu.idtauxpas.neorau202101",
+					"match": "\\b(S21.G00.50.008.*)\\b"
+				},
+				{
+					"name": "versementindividu.montantpas.neorau202101",
+					"match": "\\b(S21.G00.50.009.*)\\b"
+				},
+				{
+					"name": "versementindividu.classerevenu.neorau202101",
+					"match": "\\b(S21.G00.50.014.*)\\b"
+				},
+				{
+					"name": "versementindividu.montantretenuesourcepasrau.neorau202101",
+					"match": "\\b(S21.G00.50.019.*)\\b"
+				},
+				{
+					"name": "remuneration.numeroprestation.neorau202101",
+					"match": "\\b(S21.G00.51.010.*)\\b"
+				},
+				{
+					"name": "regulpas.moiserreur.neorau202101",
+					"match": "\\b(S21.G00.56.001.*)\\b"
+				},
+				{
+					"name": "envoi.neorau202101",
+					"match": "\\b(S10.G00.00.*)\\b"
+				},
+				{
+					"name": "envoi.emetteur.neorau202101",
+					"match": "\\b(S10.G00.01.*)\\b"
+				},
+				{
+					"name": "envoi.emetteur.contact.neorau202101",
+					"match": "\\b(S10.G00.02.*)\\b"
+				},
+				{
+					"name": "declaration.neorau202101",
+					"match": "\\b(S20.G00.05.*)\\b"
+				},
+				{
+					"name": "contact.neorau202101",
+					"match": "\\b(S20.G00.07.*)\\b"
+				},
+				{
+					"name": "entreprise.neorau202101",
+					"match": "\\b(S21.G00.06.*)\\b"
+				},
+				{
+					"name": "etablissement.neorau202101",
+					"match": "\\b(S21.G00.11.*)\\b"
+				},
+				{
+					"name": "versement.organisme.neorau202101",
+					"match": "\\b(S21.G00.20.*)\\b"
+				},
+				{
+					"name": "individu.neorau202101",
+					"match": "\\b(S21.G00.30.*)\\b"
+				},
+				{
+					"name": "droit.neorau202101",
+					"match": "\\b(S21.G00.47.*)\\b"
+				},
+				{
+					"name": "individu.versement.neorau202101",
+					"match": "\\b(S21.G00.50.*)\\b"
+				},
+				{
+					"name": "remuneration.neorau202101",
+					"match": "\\b(S21.G00.51.*)\\b"
+				},
+				{
+					"name": "regularisation.neorau202101",
+					"match": "\\b(S21.G00.56.*)\\b"
+				},
+				{
+					"name": "totaux.neorau202101",
+					"match": "\\b(S90.G00.90.*)\\b"
+				}
+			]
+		}
+	},
+	"scopeName": "source.pasrau"
+}

@@ -1,0 +1,25 @@
+{
+    "name": "neorau2021",
+    "displayName": "NEORAU",
+    "description": "Coloration syntaxique pour NEORAU",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "neorau202101",
+            "aliases": ["NEORAU 2021 01", "neorau202101"],
+            "extensions": [".pasrau"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "neorau202101",
+            "scopeName": "source.pasrau",
+            "path": "./syntaxes/neorau202101.tmLanguage.json"
+        }]
+    }
+}
