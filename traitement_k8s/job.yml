@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: pgu-test-job
+  namespace: batch-jobs
+spec:
+  template:
+    spec:
+      containers:
+      - name: traitement
+        image: traitement_k8s-traitement
+        command: ["/opt/programme/traitement/run.sh"] #exe par kubectl apply -f .... 116
+
+      restartPolicy: Never

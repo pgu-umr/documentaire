@@ -1,0 +1,22 @@
+# k8s n'utilise pas docker-compose.yml
+# « traitement_k8s-traitement » = nom image généré par docker-compose.
+name: traitement_exp
+services:
+
+  traitement: # nom du service
+    
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    environment:
+      VAR1: un_test # pour test var env.
+    entrypoint: tail -f /home/traitement/log.txt # Pour que le conteneur ne s'arrête pas.
+    logging:
+      driver: "none"  
+    restart: unless-stopped
+    volumes:
+      - /home/pgu/Documents/traitement:/home/traitement
+
+  
+
+
